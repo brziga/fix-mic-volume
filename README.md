@@ -2,6 +2,8 @@
 
 This is a Windows application that allows easy access to the microphone input volume setting from the taskbar.
 
+If you wish to use this application, go to [Releases](https://github.com/brziga/fix-mic-volume/releases).
+
 ## Motivation
 
 > If you want it done right do it yourself.
