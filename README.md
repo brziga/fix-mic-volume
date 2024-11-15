@@ -42,7 +42,7 @@ In order to check the volume level and change it, you have to navigate through t
 - **comtypes**: A Python COM package (licensed under the MIT License).
   - [GitHub Repository](https://github.com/enthought/comtypes)
 
-### Other assests
+### Other assets
 Icon image by:  
 <a href="https://www.flaticon.com/free-icons/voice-recorder" title="voice-recorder icons">Voice-recorder icons created by rukanicon - Flaticon</a>
 
