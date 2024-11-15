@@ -2,8 +2,10 @@
 
 
 # Imports
+import sys
+import os
 from pystray import Icon, Menu, MenuItem
-from PIL import Image, ImageDraw
+from PIL import Image
 from sys_sett_ctrls import MicCtrl
 
 
@@ -12,7 +14,7 @@ from sys_sett_ctrls import MicCtrl
 microphone = MicCtrl()
 
 
-# Functions for system try menu actions
+# Functions for system tray menu actions
 def show_volume(icon, item):
     vol = microphone.get_input_volume()
     print(f"Current microphone volume: {vol}%")
@@ -26,8 +28,18 @@ def quit(icon, item):
 
 
 #Load the icon image
+def resource_path(relative_path):
+    # Overhead for PyInstaller
+    try:
+        base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    except Exception:
+        base_path = os.path.dirname(os.path.abspath(__file__))
+    
+    return os.path.join(base_path, relative_path)
+
+icon_image_path = resource_path("assets/mic_settings.png")
 def icon_image():
-    return Image.open("assets/mic_settings.png")
+    return Image.open(icon_image_path)
 
 
 # Define the system tray menu
