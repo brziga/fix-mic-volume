@@ -1,2 +1,5 @@
 sys_sett_ctrls/__pycache__/__init__.cpython-311.pyc
 sys_sett_ctrls/__pycache__/mic_control.cpython-311.pyc
+build
+dist
+main.spec
