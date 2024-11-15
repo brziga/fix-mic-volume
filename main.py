@@ -19,7 +19,7 @@ def show_volume(icon, item):
 
 def set_volume(icon, item):
     microphone.set_input_volume(0.8) # Set volume to 80%
-    print("Volume set to 50%")
+    print("Volume set to 80%")
 
 def quit(icon, item):
     icon.stop()
