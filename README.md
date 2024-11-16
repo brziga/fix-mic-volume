@@ -25,6 +25,7 @@ In order to check the volume level and change it, you have to navigate through t
 - [ ] Set and display functionalities for system volume
 - [ ] Periodic checks and automatic correction
 - [ ] Customization of the menu options
+- [ ] Tray icon display the current input volume
 
 
 ## Credits
