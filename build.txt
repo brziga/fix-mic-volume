@@ -1,0 +1,6 @@
+# To build the project:
+# - have PyInstaller installed
+# - run the following command (Windows)
+    (in bash or if pyinstaller is in PATH, there is no need to run it with python - can be run directly with PyInstaller <...>)
+
+python -m PyInstaller --onefile --windowed --add-data "assets\mic_settings.png;assets" --icon="assets\mic_settings.png" "main.py"
