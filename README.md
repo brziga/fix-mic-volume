@@ -37,10 +37,10 @@ In order to check the volume level and change it, you have to navigate through t
 - **pystray**: A library for creating system tray icons.
   - [GitHub Repository](https://github.com/moses-palmer/pystray)
   
-- **Pillow**: Python Imaging Library Fork (licensed under the PIL license, similar to the MIT License).
+- **Pillow**: Python Imaging Library Fork.
   - [GitHub Repository](https://github.com/python-pillow/Pillow)
   
-- **comtypes**: A Python COM package (licensed under the MIT License).
+- **comtypes**: A Python COM package.
   - [GitHub Repository](https://github.com/enthought/comtypes)
 
 ### Other assets
