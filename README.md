@@ -19,6 +19,7 @@ In order to check the volume level and change it, you have to navigate through t
 - [ ] Current volume displayed
 - [ ] Popup message on hover
 - [ ] Custom value option for setting the microphone volume
+- [ ] Start with Windows
 - [ ] Mute and unmute functionality with indication
 - [ ] Settings implementation with saving and loading
 - [ ] Set and display functionalities for system volume
