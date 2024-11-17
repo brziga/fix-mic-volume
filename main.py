@@ -51,7 +51,12 @@ menu = Menu(
 
 
 # Initialize the tray icon
-icon = Icon("Mic Input Volume Control", icon_image(), menu=menu)
+icon = Icon(
+    "Mic Input Volume Control", 
+    icon_image(), 
+    menu=menu,
+    title="Microphone Input Volume Control"
+    )
 
 
 # Run the app
